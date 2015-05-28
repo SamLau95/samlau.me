@@ -8,7 +8,7 @@ var path = require('path'),
 config = {
     // Production (Heroku)
     production: {
-        url: 'http://samlau.me/',
+        url: 'http://www.samlau.me/',
         mail: {
           transport: 'SMTP',
           host: 'smtp.mandrillapp.com',

@@ -15,9 +15,6 @@ express = require('express');
 ghost = require('./core');
 errors = require('./core/server/errors');
 
-// Start newrelic
-require('newrelic');
-
 // Create our parent express app instance.
 parentApp = express();
 

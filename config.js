@@ -2,6 +2,8 @@
 // Setup your Ghost install for various environments
 // Documentation can be found at http://support.ghost.org/config/
 
+require('newrelic');
+
 var path = require('path'),
     config;
 
